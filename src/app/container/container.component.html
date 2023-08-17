@@ -14,7 +14,8 @@
   <!-- <div *ngFor="let item of ListOfString">
     <p> Current element of array is: {{item}}</p>
   </div> -->
-  <product-list [searchText]="searchText"></product-list>
+  <product-list [searchText]="searchText" #productListComponent></product-list>
+  <product-detail *ngIf="productListComponent.selectedProduct"></product-detail>
 </div>
 
 <!-- <button [disabled]="!(product.inStock > 0)">Buy Now</button> -->
