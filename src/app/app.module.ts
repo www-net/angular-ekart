@@ -13,6 +13,7 @@ import { ProductListComponent } from './container/product-list/product-list.comp
 import { ProductComponent } from './container/product-list/product/product.component';
 import { FilterComponent } from './container/product-list/filter/filter.component';
 import { ProductDetailComponent } from './container/product-detail/product-detail.component';
+import { FeaturedBrandsComponent } from './container/featured-brands/featured-brands.component';
 import { SetBackground} from './CustomDirectives/SetBackground.directive';
 import { HighlightDirective } from './CustomDirectives/highlight.directive';
 import { AppHoverDirective } from './CustomDirectives/app-hover.directive';
@@ -33,6 +34,7 @@ import { AppHoverDirective } from './CustomDirectives/app-hover.directive';
     SetBackground,
     HighlightDirective,
     AppHoverDirective,
+    FeaturedBrandsComponent,
   ],
   imports: [
     BrowserModule,
